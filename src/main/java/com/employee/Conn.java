@@ -45,7 +45,7 @@ public class Conn {
             connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/employee_management",
                 "root",
-                "your mySQL password"
+                "YOUR_mySQL_PASSWORD_HERE"
             );
 
             // Create a statement object for executing queries
