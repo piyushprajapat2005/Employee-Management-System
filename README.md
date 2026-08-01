@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Employee Management System
 
 A Java Swing desktop application for managing employee records, backed by a MySQL database.
@@ -25,10 +24,10 @@ The app expects a MySQL database named `employee_management` with `login` and `e
 
 > **Note:** Database credentials are currently hardcoded in `Conn.java`. Update them to match your local MySQL setup before running.
 
+## Resources / Icons
+
+Background images used by the UI live in `src/main/resources/icons/`. Make sure this folder is on the classpath when running (in IntelliJ IDEA, mark `src/main/resources` as a **Resources Root**), since images are loaded at runtime via `ClassLoader.getSystemResource`.
+
 ## Running
 
 Entry point: `SplashScreen.main()` → `LoginFrame` → `HomePage`.
-=======
-# Employee-Management-System
-A Java Swing-based Employee Management System with MySQL integration for secure employee record management, authentication, and CRUD operations.
->>>>>>> 95a1522ac660586778a9a6a68ae1f3545c2f5201
